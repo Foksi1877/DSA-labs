@@ -139,7 +139,7 @@ class DynamicArray:
     def __init__(self) -> None:
         self._capacity = self.INITIAL_CAPACITY
         self._size = 0
-        self._buffer: list = [None] * self._capacity  
+        self._buffer: list = [None] * self._capacity
         self.copies = 0
 
     def __len__(self) -> int:
